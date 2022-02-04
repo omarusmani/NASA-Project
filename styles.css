@@ -1,0 +1,12 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color : #0B3D91;
+   
+    background-color:#FC3D21
+
+}
+   
+header, main{
+    font-size: 50pt;
+    border: 2px solid;
+}
