@@ -1,7 +1,7 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    color : #075ff7;
-   
+    color : #075fff
+    display flex;
     background-color:#faf4f3
 
 }
