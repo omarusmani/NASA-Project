@@ -1,12 +1,18 @@
+.all-block-elements {
+    display: block;
+  }
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    color : #075fff
+    color : hsl(29, 92%, 59%)
+    font-color
     display flex;
     background-color:#faf4f3
-
+    padding 10px;
 }
    
 header, main{
+    color: rgb(0, 0, 0);
     font-size: 50pt;
     border: 2px solid;
+    width :20%
 }
