@@ -69,6 +69,12 @@ ul {
     margin-bottom: 15px;
 
 }
+.lower{
+    font-weight: lighter;
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .Office{
     border: 1px solid darkseagreen;
     width:270px;
@@ -85,16 +91,18 @@ ul {
 }
 .o{
     font-size: 10pt;
-    display:flex
-    font-weight: lighter;
-    margin-bottom: 3em;
+    display:flex;
+    flex-direction: column;
+    gap: 3px;
+    font-weight:lighter;
+    margin: bottom 3pt;;
 
 }
-.lower{
-    font-weight: lighter;
-}
+
 
 .Contact{
+    display:flex;
+    flex-direction: column;
     border: 1px solid darkseagreen;
     width:270px;
     justify-content: left;
@@ -119,32 +127,8 @@ textarea {
     margin-bottom: 15px;
 
 }
-.button{
-    padding: 20px!important ;
-    font-size: 20px!important ;
-    background-color: rgb(36, 36, 36);
-    width: 50px;
-    height:25px;
-    color:white;
-}
-.twitter{
-    margin-bottom: 3px;
-}
-.facebook{
-    margin-bottom: 3px;
 
-}
-.instagram{
-    margin-bottom: 3px;
 
-}
-.youtube{
-    margin-bottom: 3px;
-}
-.public{
-    margin-bottom: 3px;
-
-}
 
 
 
