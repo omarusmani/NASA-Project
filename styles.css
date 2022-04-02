@@ -1,6 +1,5 @@
 
 body{
-    background-color:rgb(187, 187, 187);
     padding: 10px;
     margin: 10px;
     display: flex;
@@ -11,6 +10,12 @@ body{
     color : hsl(29, 92%, 59%)
 
 }
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 2px;
+
+}
 
 .main-container{
     display:flex;
@@ -19,10 +24,12 @@ body{
     margin:0px;
     padding:0px;
     color: rgb(255, 255, 255);
-    font-size: 50pt;
+    font-size: 85pt;
+    font-weight: bolder;
+    font-stretch:extra-expanded;
     border: 2px solid red;
-    height: 450px;
-    width: 850px;
+    height: 446px;
+    width: 846px;
 }
 .Nasa{
     background-image:url('Arp244-LRGB_850x450.jpg');
@@ -35,24 +42,95 @@ body{
 .second-container{
     display:flex;
     flex-direction:row;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     background-color: rgb(211, 211, 211);
-    margin: 20px;
+    margin: 10px;
     padding: 0px;
     color: rgb(0, 0, 0);
     font-size: 10pt;
     border: 2px solid red;
-    height: 324px;
-    width: 850px;
+    height: 320px;
+    width: 846px;
 }
 .Social{
+    border: 1px solid darkseagreen;
+    width:270px;
     justify-content: left;
+    align-items: left;
+    padding:0pt;
+    margin:20px;
+
 }
 .social-inner{
-    font-weight: bold;
+    justify-content: top;
+    font-weight:bolder;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+
+}
+.Office{
+    border: 1px solid darkseagreen;
+    width:270px;
+    justify-content: left;
+    padding:0pt;
+    margin:20px;
+
+}
+.off{
+    justify-content: top;
+    font-weight:bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.o{
+    font-size: 10pt;
+    font-weight: lighter;
+    margin-bottom: 3em;
+
+}
+
+.Contact{
+    border: 1px solid darkseagreen;
+    width:270px;
+    justify-content: left;
+    padding:0pt;
+    font-weight:bolder;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin:20px;
+
+}
+.form{
+    margin-top: 20px;
+    justify-content: top;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-bottom: 15px;
+
+}
+.form.button{
+    padding: 20px 30px ;
+    font-size: 20px ;
+    background-color: rgb(36, 36, 36);
+    width: 50px;
+    height:25px;
+    color:white;
+}
+.twitter{
+    margin-bottom: 3px;
+}
+.facebook{
+    margin-bottom: 3px;
+
+}
+.instagram{
+    margin-bottom: 3px;
+
+}
+.youtube{
+    margin-bottom: 3px;
+
 }
 
 
