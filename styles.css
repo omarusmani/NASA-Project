@@ -85,9 +85,13 @@ ul {
 }
 .o{
     font-size: 10pt;
+    display:flex
     font-weight: lighter;
     margin-bottom: 3em;
 
+}
+.lower{
+    font-weight: lighter;
 }
 
 .Contact{
@@ -101,6 +105,12 @@ ul {
     margin:20px;
 
 }
+input {
+    width: 80%;
+}
+textarea {
+    width: 80%;
+}
 .form{
     margin-top: 20px;
     justify-content: top;
@@ -109,9 +119,9 @@ ul {
     margin-bottom: 15px;
 
 }
-.form.button{
-    padding: 20px 30px ;
-    font-size: 20px ;
+.button{
+    padding: 20px!important ;
+    font-size: 20px!important ;
     background-color: rgb(36, 36, 36);
     width: 50px;
     height:25px;
@@ -130,7 +140,11 @@ ul {
 }
 .youtube{
     margin-bottom: 3px;
+}
+.public{
+    margin-bottom: 3px;
 
 }
+
 
 
