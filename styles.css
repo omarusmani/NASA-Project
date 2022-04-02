@@ -1,18 +1,45 @@
-.all-block-elements {
-    display: block;
-  }
+
 body{
+    display: flex;
+    flex-direction: column;
     font-family: 'Source Sans Pro', sans-serif;
     color : hsl(29, 92%, 59%)
-    font-color
-    display flex;
-    background-color:#faf4f3
-    padding 10px;
+    background-color: #faf4f3; 
+    padding: 10px;
+    margin: 10px;
 }
    
-header, main{
-    color: rgb(0, 0, 0);
+.main-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+    color: rgb(255, 255, 255);
     font-size: 50pt;
     border: 2px solid;
-    width :20%
+    height: 450px;
+    width: 850px;
 }
+.second-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+    color: rgb(255, 255, 255);
+    font-size: 50pt;
+    border: 2px solid;
+    height: 324px;
+    width: 850px;
+}
+.Nasa{
+    background-image:url('Arp244-LRGB_850x450.jpg');
+    height:450px;
+    width:850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

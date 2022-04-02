@@ -1,2 +1,2 @@
 # NASA-Project
-nasa website using flexbox
+nasa website using flex box
