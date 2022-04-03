@@ -27,7 +27,7 @@ ul {
     font-size: 85pt;
     font-weight: bolder;
     font-stretch:extra-expanded;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 446px;
     width: 846px;
 }
@@ -49,7 +49,7 @@ ul {
     padding: 0px;
     color: rgb(0, 0, 0);
     font-size: 10pt;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 320px;
     width: 846px;
 }
@@ -76,7 +76,7 @@ ul {
     gap: 5px;
 }
 .Office{
-    border: 1px solid darkseagreen;
+    /* border: 1px solid darkseagreen; */
     width:270px;
     justify-content: left;
     padding:0pt;
@@ -103,7 +103,7 @@ ul {
 .Contact{
     display:flex;
     flex-direction: column;
-    border: 1px solid darkseagreen;
+    /* border: 1px solid darkseagreen; */
     width:270px;
     justify-content: left;
     padding:0pt;
