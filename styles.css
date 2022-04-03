@@ -27,7 +27,6 @@ ul {
     font-size: 85pt;
     font-weight: bolder;
     font-stretch:extra-expanded;
-    border: 2px solid red;
     height: 446px;
     width: 846px;
 }
@@ -54,7 +53,6 @@ ul {
     width: 846px;
 }
 .Social{
-    border: 1px solid darkseagreen;
     width:270px;
     justify-content: left;
     align-items: left;
@@ -76,7 +74,6 @@ ul {
     gap: 5px;
 }
 .Office{
-    border: 1px solid darkseagreen;
     width:270px;
     justify-content: left;
     padding:0pt;
@@ -103,7 +100,6 @@ ul {
 .Contact{
     display:flex;
     flex-direction: column;
-    border: 1px solid darkseagreen;
     width:270px;
     justify-content: left;
     padding:0pt;
